@@ -1,5 +1,19 @@
 [<img src="images/logo_orange.svg" align="right" width="100" height="100" />](https://www.socfortress.co/)
 
+# Advanced Wazuh Detection Rules (adjusted by mimugmail) / Michael Muenz / https://wazuh.com/ambassadors/michael-munz/
+
+- Fixed formatting
+- Adjusted rule numbers to avoid duplication errors
+- Minor typos
+
+Installation:
+1. Clone repo to Wazuh-Host
+2. Make a backup of /var/ossec/etc/rules
+3. Make a backup of /var/ossec/etc/decoders
+4. Remove all customer decoders
+5. Remove all custom rules
+6. 
+
 # Advanced Wazuh Detection Rules [![Awesome](https://img.shields.io/badge/SOCFortress-Worlds%20First%20Free%20Cloud%20SOC-orange)](https://www.socfortress.co/trial.html)
 > The SOCFortress Team has committed to contributing to the Open Source community. We hope you find these rulesets helpful and robust as you work to keep your networks secure.
 
